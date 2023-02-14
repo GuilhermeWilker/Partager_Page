@@ -166,4 +166,33 @@ export default {
     width: 95px;
   }
 }
+
+@media (max-width: 375px) {
+  .slider {
+    content: "";
+    border-radius: 20px;
+    background-color: #2170e7;
+    width: 310px;
+    height: 560px;
+  }
+
+  .slide {
+    width: 200px;
+
+    margin: 5px 18%;
+    display: none;
+  }
+
+  .active {
+    display: block;
+
+    animation: shakeY;
+    animation-duration: 1s;
+  }
+
+  .logo {
+    padding: 15px;
+    width: 95px;
+  }
+}
 </style>

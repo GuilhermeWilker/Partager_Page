@@ -96,14 +96,16 @@ nav ul li:last-child:hover {
   margin-bottom: 40px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 375px) {
   .view {
     width: 100%;
   }
 
   header {
-    width: 430px;
+    width: 100%;
+    padding: 0 20px;
   }
+
   .title {
     text-align: center;
     margin: 100px 0 20px 0;
@@ -121,10 +123,51 @@ nav ul li:last-child:hover {
   }
 
   nav ul {
-    margin: 0 0.5px;
-    font-size: 13px;
+    gap: 40%;
+    margin: 0;
+    font-size: 14px;
 
     align-items: center;
+  }
+
+  @media (max-width: 430px) {
+    .view {
+      width: 100%;
+    }
+
+    header {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .title {
+      text-align: center;
+      margin: 100px 0 20px 0;
+
+      width: 100%;
+      font-size: 40px;
+    }
+
+    .paragraph {
+      text-align: center;
+      width: 100%;
+
+      font-size: 14px;
+    }
+
+    .btn {
+      margin: 0 30%;
+
+      font-size: 12px;
+    }
+
+    nav ul {
+      gap: 40%;
+      margin: 0;
+      font-size: 12px;
+
+      align-items: center;
+    }
   }
 }
 </style>
