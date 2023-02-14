@@ -4,7 +4,7 @@
     <img width='510px' src='./public/images/Mockup.png' />
 </p>
 
-<p>
- Landing page oficial do Partager Player, para acessa-lo: <br />
-<a href='https://partage-player.vercel.app/' target='__blank'>Clique aqui!</a>
+<p align="center">
+ Landing page oficial do Partager Player, para acessa-la: <br />
+<a href='https://partagerpage.netlify.app/' target='__blank'>Clique aqui!</a>
 </p>
