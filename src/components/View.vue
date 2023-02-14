@@ -96,7 +96,7 @@ nav ul li:last-child:hover {
   margin-bottom: 40px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .view {
     width: 100%;
   }
@@ -123,51 +123,53 @@ nav ul li:last-child:hover {
   }
 
   nav ul {
-    gap: 40%;
+    gap: 30%;
     margin: 0;
     font-size: 14px;
 
     align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .view {
+    width: 100%;
   }
 
-  @media (max-width: 430px) {
-    .view {
-      width: 100%;
-    }
+  header {
+    width: 100%;
+    padding: 0 20px;
+  }
 
-    header {
-      width: 100%;
-      padding: 0 20px;
-    }
+  .title {
+    text-align: center;
+    margin: 100px 0 20px 0;
 
-    .title {
-      text-align: center;
-      margin: 100px 0 20px 0;
+    width: 100%;
+    font-size: 40px;
+  }
 
-      width: 100%;
-      font-size: 40px;
-    }
+  .paragraph {
+    text-align: center;
+    width: 100%;
 
-    .paragraph {
-      text-align: center;
-      width: 100%;
+    font-size: 14px;
+  }
 
-      font-size: 14px;
-    }
+  .btn {
+    margin: 0 30%;
 
-    .btn {
-      margin: 0 30%;
+    font-size: 12px;
+  }
 
-      font-size: 12px;
-    }
+  nav ul {
+    gap: 40%;
+    margin: 0;
+    font-size: 12px;
 
-    nav ul {
-      gap: 40%;
-      margin: 0;
-      font-size: 12px;
-
-      align-items: center;
-    }
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>
