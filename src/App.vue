@@ -43,6 +43,7 @@ export default {
     gap: 80px;
     flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
   }
 }
 </style>
