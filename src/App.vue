@@ -44,6 +44,8 @@ export default {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
   }
 }
 </style>

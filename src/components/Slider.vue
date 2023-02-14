@@ -143,7 +143,7 @@ export default {
     content: "";
     border-radius: 20px;
     background-color: #2170e7;
-    width: 401px;
+    width: 380px;
     height: 560px;
   }
 

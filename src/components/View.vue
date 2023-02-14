@@ -98,7 +98,7 @@ nav ul li:last-child:hover {
 
 @media (max-width: 430px) {
   .view {
-    width: 430px;
+    width: 100%;
   }
 
   header {
@@ -107,10 +107,13 @@ nav ul li:last-child:hover {
   .title {
     text-align: center;
     margin: 100px 0 20px 0;
+
+    width: 100%;
   }
 
   .paragraph {
     text-align: center;
+    width: 100%;
   }
 
   .btn {
